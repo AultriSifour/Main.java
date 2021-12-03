@@ -1,0 +1,8 @@
+Tomato Soup, Soup, 5.50
+Meat Soup, Soup, 7.00
+Chicken Soup, Soup, 6.70
+Chicken Pizza, Pizza, 9.30
+Margherita, Pizza, 8.20
+Pepperoni, Pizza, 10.10
+BBQ Chicken, Meat, 12.20
+BBQ Steak, Meat, 15.20
