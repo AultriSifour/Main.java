@@ -1,30 +1,25 @@
 package com.company;
 
-import java.io.*;
-import java.nio.file.Files;
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) throws Exception {
-        Scanner input = new Scanner(System.in);
-        String job;
+
 
         int logger = getLogger();
         if (logger == 1) {
             System.out.println("You have joined as a cook.");
-            job = "cook";
             // metodite na cook
-
+            Cook c1 = new Cook();
+            c1.changeOrderProgressCook();
         } else {
             System.out.println("You have joined as a waiter.");
-            job = "waiter";
             //metodite na waiter
             Waiter w1 = new Waiter();
             w1.chooseWhatToDo();
-        }
 
+        }
 
     }
 
